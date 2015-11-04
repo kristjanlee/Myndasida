@@ -1,2 +1,0 @@
-#login dæmi
-#chat síða
