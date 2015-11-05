@@ -1,6 +1,8 @@
-# Myndasida
-Síðu sem userar geta postað upp myndum og aðrir geta commentað á þær.
+# ForumFyrirFs
+Forum fyrir skólan sem við á tölvufræði braut getum skrifað á,
+Angular js fyrir chat og django gagnagrun fyrir forum
+Eins og þetta http://forritun.fss.is:8080/osqa/
 
-Þátttakendur:
+þáttakendur:
 
-Jónas Daníel
+Gunnar
