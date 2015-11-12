@@ -1,0 +1,68 @@
+.head {
+  font-weight: bold;
+  font-family: Georgia;
+  color: #192e28;
+  font-size: 20px;
+  text-align: center;
+}
+
+#one {
+  text-align: center;
+}
+
+#one .head {
+  font-size: 50px;
+}
+
+#container {
+  width: 500px;
+  margin: 25 px;
+}
+
+#two, #three, #four {
+  background-color: #fff;
+  padding: 8px;
+  font-family: tahoma;
+  color: #212e36;
+  font-size: 15px;
+}
+
+#two, #three {
+  width: 250px;
+  text-align: center;
+}
+
+#four {
+  text-align: justify;
+}
+
+.icon {
+  width: 25px;
+}
+
+button {
+  padding: 0px;
+  height: 29px;
+}
+
+.editicon {
+  width: 15px;
+}
+
+#editbutton {
+  padding: 0px;
+  height: 19px;
+}
+
+#hidden {
+  display: none;
+}
+
+#outside {
+  text-align: center;
+}
+
+#about {
+  width: 300px;
+  height: 100px;
+}

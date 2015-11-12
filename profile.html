@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body background="bg.png">
+  <center>
+    <div id="container">
+      <table id="inside" cellspacing="0" border="0">
+        <tr>
+          <td colspan="2" id="one">
+            <div class="head">{{Username}}</div>
+            <img src="http://www.lcfc.com/images/common/bg_player_profile_default_big.png">
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" id="two">
+            <div class="head">Social Media <button id="editbutton" type="button" onclick="editprofile()"><img class="editicon" src="edit.png"/></button></div>
+            <button type="button" onclick="{facebookinfo}"><img class="icon" src="facebook.png"/></button>
+              <br>
+            <button type="button" onclick="{twitterinfo}"><img class="icon" src="twitter.png"/></button>
+              <br>
+            <button type="button" onclick="{instagraminfo}"><img class="icon" src="instagram.png"/></button>
+              <br>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" id="three">
+            <div class="head">Personal Information</div>
+            <p>First Name - Last Name</p>
+            <p>Gender:</p>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" id="four">
+            <div class="head">About me</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis ligula viverra, pretium augue et, luctus tellus. Fusce magna dolor, cursus id odio ut, hendrerit maximus nibh. Fusce at nibh nec mauris lobortis accumsan. Ut quis eros tellus. Etiam egestas hendrerit cursus. Nam nec imperdiet nibh, sit amet placerat leo. Nam a nisl iaculis, tincidunt diam vel, luctus orci.</p>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div id="hidden">
+      <table id="outside" cellspacing="0" border="0">
+        <form action="updateuserinfo">
+          <fieldset>
+            <legend>Personal information</legend>
+            First Name:
+            <input type="text" name="firstname"><br>
+            Last Name:
+            <input type="text" name="lastname"><br>
+            Gender:<br>
+            <input type="radio" name="sex" value="male">Male
+            <br>
+            <input type="radio" name="sex" value="female">Female<br>
+            About yourself:<br>
+            <textarea id="about" name="about"></textarea><br>
+            <input type="submit" value="Submit">
+          </fieldset>
+        </form>
+      </table>
+    </div>
+  </center>
+  <script src="js/main.js">
+  </script>
+</body>
+</html>
