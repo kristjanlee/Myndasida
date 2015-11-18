@@ -58,11 +58,21 @@ button {
   display: none;
 }
 
+#editavatar {
+  display: none;
+}
+
 #outside {
   text-align: center;
 }
 
-#about {
-  width: 300px;
-  height: 100px;
+#about_you {
+  min-width:300px;
+  min-height: 100px;
+  max-width: 300px;
+  max-height: 100px;
+}
+
+fieldset {
+  width: 400px
 }

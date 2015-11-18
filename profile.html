@@ -42,22 +42,26 @@
     </div>
     <div id="hidden">
       <table id="outside" cellspacing="0" border="0">
-        <form action="updateuserinfo">
+        <form action="http://127.0.0.1:8000/sida/getname/" method="get">
+          <!--Action should be updateuserinfo/user_id -->
           <fieldset>
             <legend>Personal information</legend>
-            First Name:
-            <input type="text" name="firstname"><br>
-            Last Name:
-            <input type="text" name="lastname"><br>
-            Gender:<br>
-            <input type="radio" name="sex" value="male">Male
-            <br>
-            <input type="radio" name="sex" value="female">Female<br>
-            About yourself:<br>
-            <textarea id="about" name="about"></textarea><br>
+            <label for="your_name">Full name: </label>
+              <input id="your_name" type="text" name="your_name" value="" maxlength="100"><br>
+            <label for="gender">Gender: </label>
+              <input id="gender_male" type="radio" name="sex" value="male">Male
+              <input id="gender_female" type="radio" name="sex" value="female">Female<br>
+            <label for="about_you">About yourself:</label><br>
+              <textarea id="about_you" name="about" value="about_you"></textarea><br>
             <input type="submit" value="Submit">
           </fieldset>
         </form>
+      </table>
+    </div>
+    <div id="editavatar">
+      <table cellspacing="0" border="0">
+
+
       </table>
     </div>
   </center>
