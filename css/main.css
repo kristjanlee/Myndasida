@@ -1,9 +1,10 @@
 .head {
   font-weight: bold;
-  font-family: Georgia;
-  color: #192e28;
-  font-size: 20px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: black;
+  font-size: 100px;
   text-align: center;
+  margin: 0;
 }
 
 #one {
@@ -75,4 +76,20 @@ button {
 
 fieldset {
   width: 400px
+}
+
+td {
+  background-color: #181817;
+  border: 2px solid #444442;
+  display: inline-block;
+  margin: 4px 2px;
+  position: relative;
+  width: 180px;
+  height: 180px;
+}
+
+img {
+  width: 180px;
+  height: 180px;
+  line-height: 0;
 }
